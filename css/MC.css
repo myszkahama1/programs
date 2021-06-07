@@ -1,0 +1,28 @@
+body {
+	background: url('../grafika/error.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.nag {
+	animation-name: animate;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+.link {
+	text-decoration: none;
+	color: #00EFFF
+}
+
+@keyframes animate {
+
+0% { color:#ff0000; }
+
+50% { color:#ffe600; }
+
+100% { color:#ff0000; }
+
+}
